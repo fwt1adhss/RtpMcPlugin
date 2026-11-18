@@ -1,1 +1,33 @@
+dimensions:
+  overworld:
+    enabled: true
+    world: world
+    min-x: -5000
+    max-x: 5000
+    min-z: -5000
+    max-z: 5000
+    min-y: 0
+    max-y: 320
+  nether:
+    enabled: true
+    world: world_nether
+    min-x: -2500
+    max-x: 2500
+    min-z: -2500
+    max-z: 2500
+    min-y: 32
+    max-y: 120
+  end:
+    enabled: true
+    world: world_the_end
+    min-x: -5000
+    max-x: 5000
+    min-z: -5000
+    max-z: 5000
+    min-y: 40
+    max-y: 256
 
+teleport:
+  countdown-seconds: 3
+  move-cancel-distance: 2.0
+  max-location-attempts: 80
